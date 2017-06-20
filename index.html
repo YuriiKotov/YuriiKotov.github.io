@@ -186,6 +186,139 @@
                     </div><!--//content-->
                 </div><!--//section-inner-->
             </section><!--//section-->
+
+            <section class="history section">
+                <div class="section-inner">
+                    <h2 class="heading">My advice</h2>
+                    <div class="content">
+                        <div class="item">
+                            <p>I still remember that day back in 2014 when I decided to start Android development, and that was one of the best decisions I took in my life. It has been around two and a half years now and I had the chance to learn and un-learn a lot of things in Android.
+                                Initially when I started, I didn’t have a mentor or someone who could guide me to do things the right way. I did a LOT of mistakes and also wasted a lot of time doing and later rectifying them.
+                                Later, after one and a half years, I got the chance to work with some really talented and experienced Android developers, who guided me and helped me shape things in a much better way. Both of these phases helped me learn a hell lot of things in the HARD way. I learned what TO DO and most importantly what NOT TO DO.
+                                It has been quite some time that I have been trying to help other developers in ways possible to me, directly and indirectly. Here are my StackOverflow and Github profiles.
+                                In this article, I will be sharing some of the gems that I have collected in these years. It might help someone to get started faster and not repeat the mistakes that I once did.
+                                Disclaimer: I will mainly be focussing on Android and some concepts of programming and product development in this article, so if you are not familiar with any of these, you might not want to read any further. Others, just dive in. :-)
+                                1. Don’t Reinvent the Wheel
+                                Initially, I had a bad idea of not using open-source libraries. Whatever I needed, I just wanted to make it myself. It’s was seriously a terrible idea.
+                                If you have a problem while developing your app, and if that problem has been solved by someone else before and in a good way, why not use that? You can save yourself a lot of time.
+                                Focus more on the core business logic of your app. If you want to make network calls in your app, you don’t need to make a Retrofit yourself.
+                                Bonus: Android Arsenal maintains a database of almost all Android libraries ever made. Go check it out.
+                                2. Choose Libraries Wisely
+                                There are lots and lots of open-source libraries available in Github for you to use for FREE. But don’t get too excited and start using libraries blindly.
+                                Check the number of stars that particular library has, the more the better. Check if the author of that library have also created some other popular libraries as well. Check the issues (both open and closed), which can give you a better idea of how robust and stable the library is in production.
+                                If you can afford the time, you should dive into the code of that library and check yourself if its really worth it.
+                                You just want to ensure that the code you are going to use is reliable, bug-free and high-quality.
+                                Pro Tip: Try out any library hosted directly from the command line using Dryrun.
+
+                                3. Sit, Take a Cup of Coffee and Read More Code
+                                We spent most of our time reading others code than writing ourselves. If you are not doing that, START today.
+                                Whatever code you are able to write today is only because you have read and learned something, somewhere, someday. It’s just a reflection of what you already know. You can only grow and improve yourself by reading and learning from other’s work.
+                                The great thing about Android is that it is a completely open-source platform. Dive into the code and check how they have implemented the framework. There are thousands of open-source libraries in Github. Just pick a library and see how the developer have implemented it.
+                                Bonus: Here is a curated list of some of the best libraries and here is a list of almost all open-source Android apps available. You are welcome :-)
+                                4. For God’s Sake, Maintain Proper Coding Standards
+                                If you compare coding with writing, then coding standards is like your handwriting.
+                                As you would be reading more of others code, other people will also be reading a lot of your code and you don’t want to scare the shit out of them, do you? And if you are working in an organization and collaborating with other developers heavily, do take special care about it.
+                                Write short, clean and readable code that YOU and people reading your code would enjoy thoroughly. Your code should read like a story.
+                                Code is Poetry.
+                                Don’t complain if you write a piece of code and your colleagues don’t talk to you for a few days.
+                                Bonus: To start with, you must thoroughly go through this and this.
+                                5. You Need ProGuard, Yes, You Need It!
+                                Never ever, ever make the mistake of releasing your app on the Play Store without using ProGuard. ProGuard not only minifies your code, but it obfuscates your code making it harder for reverse-engineers to understand, replicate and manipulate it.
+                                Its absolutely free and comes bundled with the Android SDK, and there is absolutely no reason for you not to use it.
+                                I have seen several developers releasing their app on the market without ProGuard. It should not take more than a few hours for a not-so-skilled hacker to manipulate an the app released without Proguard.
+                                Pro Tip: But if you want top-notch security, then ProGuard is like a cardboard while you need a safe, and here it is, DexGuard.
+                                6. Use a Proper Architecture
+                                You will forever thank yourself for choosing a proper architecture in the first place.
+                                You can use MVP (Model-View-Presenter) architecture which can decouple your code into different easy-to-manage layers thereby improving code flexibility and greatly reducing maintenance time.
+                                There is a great demo project for you to start. And if you are having a hard time grasping it, here is a detailed guide for the beginners.
+                                Bonus: Do give a check at this, this and most importantly this. All of these can greatly help you in implementing MVP in your project.
+
+                                7. User Interface Is like a Joke, If You Have to Explain It, It’s Bad
+                                If you work for any organization playing the role of “just” an Android developer, you probably won’t need to be too concerned about this, as there are UI/UX designers to take care of this.
+                                But if you are an individual developer, you need to get this straight into your head. I have seen developers creating really good apps with great functionality, but the UI looks horrible and the UX makes it a pain to use.
+                                Design a clean, simple and beautiful interface that is easy on the eyes. You should not just think like a developer, rather you should concentrate on igniting the hidden designer inside you.
+                                Try to create a lasting impression on your users by designing a beautiful UI, so that they keep coming back to your app more often than others and tend to convert more (buy your premium version, maybe).
+                                You should get a kick by removing elements from your design, rather than adding. Keep it clean and minimal.
+                                Bonus: You can always get design inspiration from popular designers of Dribble or MaterialUp. And there is this book you probably would love to read if you are interested in design.
+                                8. Analytics Is Your Best Friend
+                                If you want to create a truly amazing app, you need to heavily rely on analytics tools to analyze the performance and usage of different parts of your app.
+                                By analytics, I refer to both crash reporting and app usage tracking and you need both of them.
+                                Whatever you do, you can never make something perfect. When real users will start using your app on a variety of Android devices and on various Android versions available, you will even see some of your best written code to fall flat on the ground.
+                                Crash reporting tools can help you to track and fix them, one crash at a time.
+                                You also need to start thinking like a marketer and analyze the usage of various portions of your app. This is what will help you bridge the gap between what you made and what your users’ actually want.
+                                Pro Tip: Use Firebase Crash Reporting and Analytics tools and you can thank me later.
+                                9. Be a Marketing Ninja
+                                If you are an individual developer, you have to think beyond being “just a developer” and have to understand marketing as well.
+                                I have seen good products fail due to lack of proper marketing, and the not-so-good ones become massively successful just because of great marketing.
+                                If you are serious about your work and want it to reach a large audience, you need to invest your time and money in properly marketing your app. But before starting your marketing campaigns, ensure that your app is absolutely stable with all features ready. You want maximum conversions from every dime you spend, right?
+                                Spend time researching who your competitors are and how you can beat them. Identify the ones you can compete immediately and the ones you have to keep aside for a future fight.
+                                Pro Tip: Here is an affordable market analysis tool, I love to use.
+                                10. It’s Time to Optimize Your App
+                                This is something that most of us generally don’t do, but you should and you need to.
+                                There is a big difference between writing code and writing “optimized” code. Write code that runs quickly, takes less memory and consumes less device storage.
+                                An unoptimized app works well under normal circumstances, but when put to different stressful situations, it can show you its true colors.
+                                Check the amount of memory used by your app and look for memory leaks. Remember, a tiny leak can sink a big ship. Spend time on understanding how the Garbage Collector works in Java, create heap dumps and analyze your live objects.
+                                Pro Tip: Use Leak Canary to detect your memory leaks. It can save you a lot of time by automating this task for you.
+                                11. Save More Than 5 Hours Every Week with Gradle Builds
+                                It’s very very likely that you are using Android Studio to develop Android apps and using Gradle as your build system. Gradle is great but its slow and it becomes slower than a snail when your project size starts to grow in size.
+                                I remember the countless hours I have wasted just sitting and waiting for the Gradle builds to finish. On heavy work days, I easily wasted around an hour on just Gradle builds and that’s like 5 hours a week draining down the gutter.
+                                But, there are ways to speed it up too.
+                                You can follow this and this post to significantly improve your build speeds. My build time dropped from 4 minutes to less than 30 seconds after proper optimization.
+                                12. Test, Test and When You Are Done, Test Again!
+                                There is nothing more important than testing. This is something that should be at the top of your list.
+                                Test your app as thoroughly as possible. Spend time for writing automated test cases. Create various stressful situations for your app and see if it can survive.
+                                I had once made the mistake of releasing my app out of hurry and didn’t spend proper time testing it. I was waiting for my users to face bugs, report it and then I would go and fix them.
+                                Never, ever, ever do that. You might save a day, or two, or a week by cutting down time from testing, but will probably have to spend more than twice later.
+                                Don’t do anything out of hurry, take your time and think long term. Be a visionary. Sow now, reap later.
+                                13. Android Fragmentation is a Devil in Disguise
+
+                                Fragmentation is one of the biggest problems in Android and Google seems reluctant to fix it, but you have to live with it.
+                                There are a huge variety of Android devices with different screen sizes and hardware specifications from a plethora of different device manufactures who customize the OS to their heart’s content.
+                                Added to that are the various Android versions where Google adds/removes API functionality out of nowhere to increase your workload ever further (an example here).
+                                For example, not a single Android developer has finished an app without using SharedPreferences API. It’s so common, yet it was broken in Samsung Galaxy S with Android 2.2 (bug report here).
+                                Spend more time creating different layouts for different screen sizes. Test on different devices, having different versions, different specifications and from different OEMs.
+                                Never assume something would work, just because it seems so.
+                                14. Start using Git, Today!
+                                If you are still not using Git, go ahead and start using it right away.
+                                When I started Android development, I was unfortunate enough not to know what the fudge Git was. I used to copy my entire project everyday and keep one backup in my hard drive and another in the cloud. Seems foolish? Yes, it absolutely was.
+                                Git can dramatically improve your workflow. If someone asks me to name a tool that I use everyday and can’t stop using? It’s Git and Git every time.
+                                And probably after using it for a few days you would fall in love with it and want to know how Git works internally, so here it is ready for you.
+                                And after some time, you would be starting a big project yourself and get confused on how you should maintain a proper branching model, so here you go.
+                                Bonus: If you are just starting out and can’t afford to pay the monthly subscription fee for maintaining private repositories in GitHub, you can try BitBucket which lets you do just that for free.
+                                15. Make it Difficult for the Hackers
+                                The open-source nature of Android is what makes it vulnerable to attacks. Every Android app can be decompiled, reverse-engineered, ripped open, analyzed and manipulated with ease.
+                                You don’t want that to happen to your app, right?
+                                You should know how to securely store API keys locally in your app. If you are dealing with sensitive data of the users, then you must know how to encrypt them, what algorithm to choose (secure yet fast).
+                                You should also store the encryption keys securely either in the server or locally (if needed). You should prevent your app data from being backed up using the ADB (Android Debug Bridge). If you are storing sensitive data in the database, consider obfuscating it.
+                                If your app has a premium version which gets cracked and gets released for free. You would incur a serious loss in business, right?
+                                There are several things you can do to prevent your app from getting tampered. There is nothing like 100% security. Any skilled and determined hacker with the right resources, tools and patience can crack your app.
+                                All you want to do is make it difficult, rather very difficult for the hacker to crack it.
+                                Bonus: Reading this and this should be a good start towards securing your app.
+                                16. Develop On a Low-End Device
+                                Everyone loves to use a high-end Android smartphone, so do I. But remember to keep it for your personal use only and never use it for development purposes.
+                                A high-end device will hide a lot of flaws while developing your app. Suppose you are doing something in the UI thread which makes its way for a laggy UI, but on a powerful device, you may never ever notice that.
+                                An old, low-end device, dumped with lots of apps makes it ideal for a development device.
+
+                                17. Invest in Learning Design Patterns
+                                This is an investment that will pay you forever.
+                                While developing big and complex apps, you will face some common problems which have probably been solved before by someone more competent than you, that’s when design patterns comes into play.
+                                Start spending some time right from today to learn the Java Design Patterns. Here is a Github project that demonstrates all the design patterns known to mankind.
+                                To start off, learn the most important ones like Singleton, Adapter, Factory Method, Iterator, Dependency Injection, Event Driven Architecture, Builder, Callback, Strategy, Facade and Producer Consumer.
+                                Seems like a lot? It actually isn’t. You will start loving them once you dive in.
+                                Pro Tip: Read books like GoF’s Design Patterns, Refactoring by Martin Fowler and Effective Java by Joshua Bloch.
+                                18. It’s Time to Give Back
+                                We all have got a lot of help from people around us and from the Internet. Lets admit it.
+
+                                Whenever you have a problem, the first thing you would do is Google that and find the first link from StackOverflow. Sometimes you are in a hurry and you end up copying and pasting the solution from the answer having the highest votes.
+                                Ever thought the number of libraries you are using from Github for free and how they have greatly reduced your development time and efforts. Its because someone somewhere has taken the time to build it and contribute to make the community better.
+                                Remember the day, when you were stuck in understanding a difficult concept or something which is entirely new to you, and you end up finding an awesome blog post which made it super easy for you. Its because somebody skipped a movie date and wrote that article.
+                                Its your time to give back as well. The more you give, the more you get back in return.
+                                We all are busy in our own work and we find it too difficult to manage time and do something for others. But try to find some time every week to contribute and make this Android community richer.
+                                I have tried to share some of the lessons that I have learned in this short journey with Android development. I will continue my journey, learn more and share even more. I hope it helps someone and makes their life a bit easier.</p>
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
         </div><!--//primary-->
         <div class="secondary col-md-4 col-sm-12 col-xs-12">
             <aside class="info aside section">
